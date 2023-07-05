@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cajero JS - Home</title>
+    <link rel="icon" href="./img/moneyTwo.png">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="./home.css">
+</head>
+<body>
+    <!-- Header o nav -->
+    <header>
+        <div class="icon-pig">
+            <a href="#">
+                <img src="./img/moneyTwo.png" alt="#" id="icon-photo-pig-js">
+            </a>
+        </div>
+        <a href="#">
+            <h1>Cajero JS</h1>
+        </a>
+        <a href="http://127.0.0.1:5500/11.%20Proyecto%20Cajero%20JS/second%20part/index.html" class="icons-nav">
+            <img class="photo-icons" src="./img/home.png" alt="#">
+        </a>
+        <a href="#" class="icons-nav">
+            <img class="photo-icons" src="./img/cash-withdrawal.png" alt="#">
+        </a>
+        <a href="#" class="icons-nav">
+            <img class="photo-icons" src="./img/save-money.png" alt="#">
+        </a>
+        <button class="exit-btn" type="button" onclick="exit()">
+            <img class="icons-nav" class="photo-icons" src="./img/exit.png" alt="#"> 
+        </button>
+    </header>
+    <!-- aside -->
+    <aside>
+        <div class="title-aside">
+            <h2>Tus productos</h2>
+        </div>
+        <div class="info-products-user">
+            <div class="icon-money-user">
+                <img src="./img/moneyTwo.png" alt="">
+            </div>
+            <div class="info-user">
+                <h3 id="number-account">100001</h3>
+                <p>Número de cuenta</p>
+                <h3>Brayan Chaves</h3>
+                <p>Nombre - Títular</p>
+                <h3 id="available">$ 1500000</h3> 
+                <p>Saldo disponible</p>
+            </div>
+        </div>
+        <div class="card-icon">
+            <img src="./img/cajero-automatico.png" alt="tarjeta debito">
+        </div> 
+    </aside>
+    <!-- main -->
+    <main>
+        <div class="title-main">
+            <h2>Tus movimientos</h2>
+        </div>
+        <div class="movements">
+            <div>
+                <h3>Deposit</h3>
+                <label>
+                    <img src="./img/dolares.png" alt="">
+                    <input placeholder="Money" type="number" id="money-User1">
+                </label>
+                <label>
+                    <img src="./img/lock.png" alt="">
+                    <input placeholder="Password" type="password" id="password1">
+                </label>
+                <button type="button" id="btn1">Make Transaction</button>
+            </div> <br> <br> <br> <br>
+            <div>
+                <h3>Withdraw</h3>
+                <label>
+                    <img src="./img/dolares.png" alt="">
+                    <input placeholder="Money" type="number" id="money-User2">
+                </label>
+                <label>
+                    <img src="./img/lock.png" alt="">
+                    <input placeholder="Password" type="password" id="password2">
+                </label>
+                <button type="button" id="btn2">Make Transaction</button>
+            </div>
+        </div>
+    </main>
+    <!-- Footer -->
+    <footer>
+        <a href="#">
+            <p>
+                Cajero JS ©Todos los derechos son reservados 2023
+            </p>
+        </a>
+    </footer>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script> -->
+    <script src="./home.js"></script>
+</body>
+</html>

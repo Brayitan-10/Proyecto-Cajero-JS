@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+body {
+    background-image: url(https://empresas.blogthinkbig.com/wp-content/uploads/2020/11/Como-la-intranet-aporta-a-los-servicios-de-la-banca-virtual.jpg?fit=1200%2C675);
+    padding: 0;
+    margin: 0;
+    display: grid;
+    gap: 18px;
+    grid-template-areas:
+    "nav    nav    nav"
+    "aside  main   main"
+    "footer footer footer";
+}
+header {
+    grid-area: nav;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.849);
+    box-shadow: 0 5px 10px rgb(71, 3, 6, 0.7);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+h1 {
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 2rem;
+}
+h2 {
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 1.5rem;
+}
+aside .title-aside {
+    display: grid;
+    justify-items: center;
+}
+main .title-main {
+    display: grid;
+    justify-items: center;
+}
+header .icon-pig img {
+    width: 65px;
+    height: auto;
+}
+aside .icon-money-user img {
+    width: 35px;
+    height: auto;
+}
+img {
+    width: 20px;
+    height: 20px;
+}
+aside {
+    grid-area: aside;
+    display: grid;
+    justify-content: center;
+    margin-left: 5%; /* 2.5% */
+    /* padding-left: %; */
+    background: rgba(255, 255, 255, 0.849);
+    box-shadow: 0 5px 10px rgb(71, 3, 6, 0.7);
+}
+aside .card-icon {
+    display: grid;
+    justify-content: center;
+}
+aside .card-icon img {
+    width: 124px;
+    height: auto;
+}
+main {
+    grid-area: main;
+    margin-right: 2%;
+    padding-right: 2%;
+    padding-left: 2%;
+    background: rgba(255, 255, 255, 0.849);
+    box-shadow: 0 5px 10px rgb(71, 3, 6, 0.7);
+}
+footer {
+    grid-area: footer;
+    display: grid;
+    height: auto;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.849);
+    box-shadow: 0 5px 10px rgb(71, 3, 6, 0.7);
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+aside .info-products-user {
+    position: relative;
+    right: 20%;
+}
+h3 {
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 1.1rem;
+}
+#btn1 {
+    color: rgba(255, 255, 255, 0.849); 
+    background: linear-gradient(to right, rgb(0, 0, 225), rgb(0, 117, 250));
+    font-family: 'Alfa Slab One', cursive;
+    border: none;
+    cursor: pointer;
+}
+#btn2 {
+    color: rgba(255, 255, 255, 0.849); 
+    background: linear-gradient(to right, rgb(0, 0, 225), rgb(0, 117, 250));
+    font-family: 'Alfa Slab One', cursive;
+    border: none;
+    cursor: pointer;
+}
+main label {
+    margin-left: 2%;
+}
+button {
+    margin-left: 2%;
+}
+main label input {
+    border: none;
+    color: black;
+    border-bottom: 1px solid black;
+    font-size: 1em;
+}
+main img {
+    position: relative;
+    top: 5px;
+}
+.exit-btn {
+    border: none;
+    background: none;
+    cursor: pointer;
+}
